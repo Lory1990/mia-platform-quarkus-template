@@ -1,0 +1,13 @@
+include:
+  - project: 'platform/pipelines-templates'
+    file: '/build/java/template-java-maven.yml'
+    ref: master
+#  - project: 'platform/pipelines-templates'
+#    file: '/build/java/template-java-maven-test-latest.yml'
+#    ref: master
+
+default:
+  image: maven:3-jdk-11
+
+variables:
+  IMAGE_NAME: step/crm-service
