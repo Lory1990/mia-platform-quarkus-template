@@ -1,10 +1,10 @@
-FROM registry.access.redhat.com/ubi8/openjdk-11:1.11 AS build
+FROM registry.access.redhat.com/ubi8/openjdk-21:1.18-2 AS build
 
 ARG COMMIT_SHA=<not-specified>
-ARG BUILD_FILE_NAME=crm-service
+ARG BUILD_FILE_NAME=generic-quarkus-template
 
-LABEL maintainer="Step4Business" \
-      name="crm-service" \
+LABEL maintainer="Lorenzo De Francesco" \
+      name="generic-quarkus-template" \
       description="" \
       eu.mia-platform.url="https://www.mia-platform.eu" \
       eu.mia-platform.version="0.1.0"

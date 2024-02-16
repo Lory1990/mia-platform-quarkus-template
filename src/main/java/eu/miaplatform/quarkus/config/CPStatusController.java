@@ -1,12 +1,12 @@
 package eu.miaplatform.quarkus.config;
 
 import io.quarkus.smallrye.openapi.runtime.OpenApiDocumentService;
+import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.Operation;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
-import javjakartaax.ws.rs.core.Response;
 
 @Path("/")
 public class CPStatusController {

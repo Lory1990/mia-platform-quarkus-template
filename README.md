@@ -19,7 +19,7 @@ And the documentation one
 ## Local development
 Make sure you have installed the following tools
 * [Maven](https://maven.apache.org)
-* [JDK](https://www.oracle.com/java/technologies/downloads/) (Java Development Kit) >= 11
+* [JDK](https://www.oracle.com/java/technologies/downloads/) (Java Development Kit) >= 17
 
 Simply open the application with your favorite IDE (for example [intelliJIdea]( https://www.jetbrains.com/idea/)) and use the following commands to download libraries
 ```
