@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/openjdk-21:1.18-2 AS build
+FROM registry.access.redhat.com/ubi8/openjdk-21-runtime:1.18-2 AS build
 
 ARG COMMIT_SHA=<not-specified>
 ARG BUILD_FILE_NAME=generic-quarkus-template
