@@ -1,4 +1,4 @@
-# Quarkus Template for Mia Platform
+# mia_template_service_name_placeholder
 This is a template to be used in Mia Platform console to create a new Java Application using [Quarkus](https://quarkus.io).
 
 

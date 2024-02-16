@@ -1,0 +1,70 @@
+{
+    "name": "Quarkus Template",
+    "description": "Starter for Quarkus Application",
+    "type": "template",
+    "releaseStage": "stable",
+    "tenantId": "step",
+    "itemId": "quarkus-template",
+    "repositoryUrl": "https://github.com/Lory1990/mia-platform-quarkus-template/",
+    "label": "Quarkus template",
+    "categoryId": "kotlin",
+    "suportedBy": "Lorenzo De Francesco",
+    "documentation": {
+        "type": "markdown",
+        "url": "https://raw.githubusercontent.com/Lory1990/mia-platform-quarkus-template/main/README.md"
+    },
+    "image": {
+        "localPath": "./.mia-template/image.png"
+    },
+    "supportedByImage": {
+        "localPath": "./.mia-template/supportedByImage.jpeg"
+    },
+    "resources":{
+        "services":{
+            "quarkus-service":{
+                "description": "Simple quarkus service",
+                "archiveUrl": "https://github.com/Lory1990/mia-platform-quarkus-template/archive/main.tar.gz",
+                "containerPorts": [
+                    {
+                        "name": "http",
+                        "from": 80,
+                        "to": 3000,
+                        "protocol": "TCP"
+                    }
+                ],
+                "type": "template",
+                "defaultEnvironmentVariables": [
+                    {
+                      "name": "LOG_LEVEL",
+                      "value": "{{LOG_LEVEL}}",
+                      "valueType": "plain"
+                    },
+                    {
+                      "name": "HTTP_PORT",
+                      "value": "3000",
+                      "valueType": "plain"
+                    }
+                ],
+                "defaultProbes": {
+                    "liveness": {
+                        "initialDelaySeconds": 40,
+                        "periodSeconds": 15,
+                        "timeoutSeconds": 1,
+                        "successThreshold": 1,
+                        "failureThreshold": 3
+                    }
+                },
+                "defaultResources": {
+                    "cpuLimits": {
+                      "max": "150m",
+                      "min": "50m"
+                    },
+                    "memoryLimits": {
+                      "max": "400Mi",
+                      "min": "400Mi"
+                    }
+                  }
+            }
+        }
+    }
+}
