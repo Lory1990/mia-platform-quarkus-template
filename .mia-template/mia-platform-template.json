@@ -14,10 +14,10 @@
         "url": "https://raw.githubusercontent.com/Lory1990/mia-platform-quarkus-template/main/README.md"
     },
     "image": {
-        "localPath": "./.mia-template/image.png"
+        "localPath": "./image.png"
     },
     "supportedByImage": {
-        "localPath": "./.mia-template/supportedByImage.jpeg"
+        "localPath": "./supportedByImage.jpeg"
     },
     "resources":{
         "services":{
