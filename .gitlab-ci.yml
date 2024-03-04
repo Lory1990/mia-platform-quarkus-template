@@ -4,7 +4,7 @@ include:
     ref: master
 
 default:
-  image: maven:3.8.6-openjdk-18
+  image: maven:3.9.6-amazoncorretto-21
 
 variables:
   IMAGE_NAME: mia_template_image_name_placeholder
