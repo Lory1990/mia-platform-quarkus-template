@@ -7,4 +7,4 @@ default:
   image: maven:3-jdk-17
 
 variables:
-  IMAGE_NAME: %MIA_TEMPLATE_PROJECT_ID_PLACEHOLDER%/%MIA_TEMPLATE_SERVICE_NAME_PLACEHOLDER%
+  IMAGE_NAME: mia_template_image_name_placeholder
