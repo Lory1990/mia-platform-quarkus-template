@@ -22,6 +22,7 @@
     "resources":{
         "services":{
             "quarkus-service":{
+                "name": "quarkus-service",
                 "description": "Simple quarkus service",
                 "archiveUrl": "https://github.com/Lory1990/mia-platform-quarkus-template/archive/main.tar.gz",
                 "containerPorts": [
