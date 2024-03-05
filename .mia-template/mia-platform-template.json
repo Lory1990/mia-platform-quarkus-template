@@ -2,7 +2,6 @@
     "name": "Quarkus Template",
     "description": "Starter for Quarkus Application",
     "type": "template",
-    "releaseStage": "stable",
     "tenantId": "step",
     "itemId": "quarkus-template",
     "repositoryUrl": "https://github.com/Lory1990/mia-platform-quarkus-template/",
